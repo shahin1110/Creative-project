@@ -1,0 +1,141 @@
+@media all and (min-width: 991px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 991px){
+	.search-icon-mobile{
+		display: block;
+	}
+	.search-icon-menu{
+		display: none;
+	}
+	.banner-content {
+		padding-top: 10rem;
+		max-width: 100%;
+		text-align: center;
+	}
+	.client-ing img{
+		margin-top: 2rem;
+	}
+	.prices-items{
+		margin-top: 0;
+	}
+	.price-single-item{
+		margin-top: 5rem;
+	}
+	.client-ing {
+		margin-bottom: 3rem;
+	}
+	.company-footer{
+		text-align: center;
+	}
+	.company-btn {
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.works-images {
+		column-count: 4;
+	}
+	.btn-area{
+		display: block;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	.hero-items2 {
+		margin-top: 0;
+	}
+	.hero-item {
+		padding: 3rem 0;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.hero-icons{
+		margin-right: 0;
+		margin-bottom: 3rem;
+	}
+	.menu ul {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		text-align: center;
+		margin-top: 4rem;
+		display: none;
+	}
+	.menu ul li a{
+		display: block;
+		margin-top: 1rem;
+	}
+	.div-block{
+	display: block !important;
+}
+}
+@media all and (max-width: 768px){
+	.map-from{
+		left: 10rem;
+	}
+	.purchese-btn {
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.purchese-are h4{
+		text-align: center;
+	}
+	.company-single-item {
+		padding-top: 3rem;
+	}
+	.company-items {
+		padding: 0rem 0 7rem;
+	}
+	.works-images {
+		column-count: 3;
+	}
+
+	.div {
+	transform: rotate(-30deg);
+	left: -193px;
+	top: -171px;
+}
+	
+}
+@media all and (max-width:576px){
+	.map-from {
+		left: 0;
+		right: 0;
+	}
+	.footer-icon a{
+		margin-top: 1rem;
+		display: inline-block;
+	}
+	.works-images {
+		column-count: 2;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	.div {
+		transform: rotate(-40deg);
+		left: -180px;
+		top: -188px;
+	}
+}
+@media all and (max-width:504px){
+	.div {
+		transform: rotate(-40deg);
+		left: -166px;
+		top: -161px;
+	}
+}
+@media all and (max-width:400px){
+	.company-btn a{
+		margin-bottom: 2rem;
+	}
+	.div {
+		transform: rotate(-40deg);
+		left: -166px;
+		top: -128px;
+	}
+}
+
